@@ -1,6 +1,5 @@
 import {useState} from "react";
 import AddIcon from "@mui/icons-material/Add"
-import DeleteIcon from "@mui/icons-material/Delete";
 import IconButton from "@mui/material/IconButton";
 import {Grid} from "@mui/material";
 
@@ -26,11 +25,6 @@ const AddForm = ({onSubmit}) => {
   };
   const expandHandler = () => {
     setIsOpen(true);
-  };
-  const formLeaveHandler = () => {
-    if (note.title === "" && note.text === "") {
-      setIsOpen(false);
-    }
   };
   return (
     <div>
