@@ -31,12 +31,10 @@ header h3 {
 .main {
   padding: 0 20px;
 }
-
-form {
-  position: relative;
-  width: 600px;
+.adding {
   margin: 32px auto 50px auto;
-  background: #fff;
+}
+form {
   padding: 7px;
   border-radius: 7px;
   box-shadow: 0 1px 7px #808080;
